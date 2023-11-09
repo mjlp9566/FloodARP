@@ -19,6 +19,12 @@ Clone the repository
 git clone https://github.com/mjlp9566/FloodARP.git
 ```
 
+Move to FloodARP
+
+```
+cd FloodARP
+```
+
 Install the requirements
 
 ```
