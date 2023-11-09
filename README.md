@@ -5,11 +5,11 @@ An ARP flooding tool that disconnects communication for everyone from your local
 
 `ARP` (Address Resolution Protocol) is used for the translation of IP address to MAC address. But why this translation is needed? because our transmitted packets will reach the target system's Network Interface Card (NIC). The NICs only have MAC(physical) address, we use IP address for communication which is being used for the unique identification of Hosts at network level. while the packets are reaching the physical layer it needs the MAC address of the NIC.
 
-Let's say you want to communicate with a computer having IP address (192.168.44.45) in your LAN. Your computer will broadcast a ARP request asking that who-has the IP (192.168.44.45) and the computer having the IP address will give a response that 192.168.44.55 is-at MAC-address of the target computer.
+Let's say you want to communicate with a computer having IP address (192.168.44.45) in your LAN. Your computer will broadcast a ARP request asking that who-has the IP (192.168.44.45) and the computer having the IP address will give a response that 192.168.44.55 is-at MAC address of the target computer.
 
 ![image](https://github.com/mjlp9566/FloodARP/assets/55002003/1eff26c5-6e38-4e0e-ad35-5d2056e06f2c)
 
-The tool get IP of yout gateway as input and send a ARP reply that the gateway IP is at your's MAC address , so all the hosts in the LAN will send the frames to you and no frames will reach the gateway but still all the computers are connected to the network.
+The tool get IP of yout gateway as input and broadcast a ARP reply that the gateway IP is at your's MAC address , so all the hosts in the LAN will send the frames to you and no frames will reach the gateway but still all the computers are connected to the network.
 
 <h3>Usage</h3>
 
