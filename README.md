@@ -36,6 +36,7 @@ Run the tool and give your gateway IP
 ```
 python FloodARP.py
 ```
+> Note: Run the tool as sudo in Linux and as Administrator in windows
 
 To find the gateway IP in **Linux** - `ip r` and in **Windows** - `ipconfig`
 ![image](https://github.com/mjlp9566/FloodARP/assets/55002003/335909f1-a624-438e-a339-671048521908)
